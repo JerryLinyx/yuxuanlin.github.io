@@ -102,6 +102,18 @@ h2 {
   font-weight: 700;
 }
 
+.date {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+.name_italic {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 700;
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
