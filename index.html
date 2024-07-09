@@ -31,7 +31,7 @@
 
                 </p>
                 <p>
-                  I am a 3rd year undergraduate at <a href="https://zjui.intl.zju.edu.cn/en/college">ZJU-UIUC</a> Institute, (dual degree from both <a href="https://www.zju.edu.cn/english/">Zhejiang University </a>and <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>).
+                  I am a senior undergraduate at <a href="https://zjui.intl.zju.edu.cn/en/college">ZJU-UIUC</a> Institute, (dual degree from both <a href="https://www.zju.edu.cn/english/">Zhejiang University </a>and <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>).
                   <br>
                   I am majoring in <span class="highlight"><b>Computer Engineering</b></span> and expected to graduate in <b>2025</b>.
                 </p>
@@ -56,20 +56,44 @@
                 </td>
             </tr>
           </tbody></table>
+        
 
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Research</h2>
+              <h2>Research Experiences</h2>
               <p>
-                I'm interested in LLM, MultiModal Learning and GPU Acceleration. <!--Representative experiences are <span class="highlight">highlighted</span>.-->
+                I'm interested in Deep Learning based system developmet. <!--Representative experiences are <span class="highlight">highlighted</span>.-->
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+              <img src="images/officechair.png" width="110%">
+            </td>
+            <td style="padding: 20px; width: 75%; vertical-align: middle;">
+              <a href="">
+                <span class="papertitle">Generative AI Based 3D Models and Concept Design</span>
+                
+              </a>
+              <div style="display: flex; justify-content: space-between;">
+                <span class="name_italic" style="text-align: left;">Adviser: <a href="https://person.zju.edu.cn/chenlq">Liuqing Chen</a><a href="https://zju-d3.github.io"> (ZJU D3 Lab)</a></span>
+                
+                <span class="date" style="text-align: right;">Jun. 2024 - Sep. 2024</span>
+              </div>
+              <ul>
+                <li>Completed a <b>Blender</b> addon and its panel, functionalities include: model import/export, recommendation system, favorites, model add/delete, window segmentation, Gaussian/Mesh models scene switch.</li>
+                <li>Generated Gaussian bulbs model and rendered mesh model on our server using Transformer, which also supported text description based generation.</li>
+                <li>Utilized <b>flask</b> framework to monitor interaction requests at the back end. </li>
+                <li>Project files and sample images uploaded/downloaded over SSH (using paramiko) for 3D design.</li>
+              </ul>
+            </td>
+          </tr>
 
           <tr>
             <td style="padding: 20px; width: 25%; vertical-align: middle;">
@@ -112,14 +136,49 @@
          
         </tbody></table>
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Work Experiences</h2>
+              <p>
+                I had fun doing internships in software development for embedded systems.<!--Representative experiences are <span class="highlight">highlighted</span>.-->
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+              <img src="images/hikvision.jpeg" width="110%">
+            </td>
+            <td style="padding: 20px; width: 75%; vertical-align: middle;">
+              <a href="">
+                <span class="papertitle">Software Development Intern</span>
+
+                
+              </a>
+              <div style="display: flex; justify-content: space-between;">
+                <span class="name_italic" style="text-align: left;"></span>
+                
+                <span class="date" style="text-align: right;">Jul. 2024 - Sep. 2024</span>
+              </div>
+              <ul>
+                <li>Embedded system development for indoor cleaning robots.</li>
+              </ul>
+            </td>
+          </tr>
+         
+        </tbody></table>
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
+                <h2>Selected Projects</h2>
                 <p>
                   <!--Representative experiences are <span class="highlight">highlighted</span>.-->
                   I am familiar with C/C++ and Linux.<br>
-                  Also, I have experience in Python (PyTorth, Numpy, Matplotlib), SQL, x86 Assembly, Golang, MATLAB, and UE5.<br>
+                  Also, I have experience in Python (PyTorth, flask, bpy, Numpy, Matplotlib), SQL, x86 Assembly, Golang, MATLAB, and UE5.<br>
                 </p>
               </td>
             </tr>
@@ -140,11 +199,11 @@
                   <span class="date" style="text-align: right;">Mar. 2024 - May 2024</span>
                 </div>
                 <ul>
-                  <li>Developed a Linux-like operating system core from scratch that supports fundamental functionalities
-                    including interrupts, system calls, multi-terminals for scheduling, virtual memory, and a read-only file system, using <b>C</b> and x86 <b>Assembly</b>.</li>
-                  <li>
-                    Supported a few devices such as keyboard, RTC, PIT; Applied common development tools including <b>Git</b> on teamwork version control and <b>GDB</b> for debugging.
-                  </li>
+                  <li>Developed a Linux-like operating system kernel from scratch using <b>C</b> and <b>x86 assembly</b> language</li>
+                  <li>Supported interrupts, system calls, exceptions, managed by 8259 PIC; Implemented kernel and user state switching logic, using TSS - task state segment to support IRET.</li>
+                  <li> completed the virtual memory (using page directory/table), file system (two-layer mapping), terminals for display and so on; Currently supported devices include keyboards, RTC, and PIT interrupts</li>
+                  <li> Multi-process scheduling with scheduler and multi-terminal switching (buffer, cursor positions maintained by PCB - process control block)</li>
+                  <li>Led a team of four and used common development tools such as <b>Git</b> for team version control and <b>GDB</b> for debugging</li>
                 </ul>
               </td>
             </tr>
