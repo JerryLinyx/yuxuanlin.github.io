@@ -23,26 +23,26 @@
                   Yuxuan Lin
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:yuxuan42@illinois.edu">yuxuan42@illinois.edu</a> &nbsp;|&nbsp;
-                  
+                  <a href="mailto:yl6061@columbia.edu">yl6061@columbia.edu</a> &nbsp;|&nbsp;
                   <!-- <a >+1 (447) 902-1842</a> &nbsp;&nbsp; <br> -->
                   <!-- <a href="mailto:yuxuanl.21@intl.zju.edu.cn">yuxuanl.21@intl.zju.edu.cn</a> &nbsp;|&nbsp; -->
                   <a >+86 19533230071</a> &nbsp;&nbsp;
-
                 </p>
-                <p>
-                  Hi! I am a senior undergraduate at <a href="https://zjui.intl.zju.edu.cn/en/college">ZJU-UIUC</a> Institute, (dual degree from both <a href="https://www.zju.edu.cn/english/">Zhejiang University </a>and <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>).
+                <!-- <p>
+                  Hi! I am a M.S. at Columbia University.
+                  senior undergraduate at <a href="https://zjui.intl.zju.edu.cn/en/college">ZJU-UIUC</a> Institute, (dual degree from both <a href="https://www.zju.edu.cn/english/">Zhejiang University </a>and <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>).
                   <br>
-                  I am majoring in <span class="highlight"><b>Computer Engineering</b></span> and expected to graduate in <b>2025</b>.
-                </p>
+                  I am majoring in <span class="highlight"><b>Computer Engineering</b></span> and expected to graduate in <b>Dec. 2026</b>.
+                </p> -->
 
                 <p style="text-align:center">
-                  <a href="mailto:yuxuan42@illinois.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Resume_Yuxuan_Lin_2.1.pdf">Resume</a> &nbsp;/&nbsp;
+                  <!-- <a href="mailto:yuxuan42@illinois.edu">Email</a> &nbsp;/&nbsp; -->
+                  <!-- <a href="data/Resume_Yuxuan_Lin_2.1.pdf">Resume</a> &nbsp;/&nbsp; -->
                   <!-- <a href="data/简历_实习_林煜轩.pdf">简历</a> &nbsp;/&nbsp; -->
                   <a href="https://www.linkedin.com/in/yuxuan0/" target="_blank">LinkedIn</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/L10yx">Github</a>&nbsp;/&nbsp;
-                  <a href="https://L10yx.github.io">Blog</a>
+                  <a href="https://github.com/L10yx">Github</a>
+                  <!-- &nbsp;/&nbsp; -->
+                  <!-- <a href="https://L10yx.github.io">Blog</a> -->
 
 
                 </p>
@@ -64,7 +64,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <h2>Research Experiences</h2>
               <p>
-                I'm interested in Deep Learning based system developmet. <!--Representative experiences are <span class="highlight">highlighted</span>.-->
+                My research explores generative models for medical imaging and 3D content creation. <!--Representative experiences are <span class="highlight">highlighted</span>.-->
               </p>
             </td>
           </tr>
@@ -83,10 +83,12 @@
               <div style="display: flex; justify-content: space-between;">
                 <span class="name_italic" style="text-align: left;">Adviser: <a href="https://zjui.intl.zju.edu.cn/en/team/teacherinfo/2736">Bo Zhao</a></span>
                 
-                <span class="date" style="text-align: right;">Dec. 2024 - Jun. 2025(expected)</span>
+                <span class="date" style="text-align: right;">Dec. 2024 - Jun. 2025</span>
               </div>
               <ul>
-                <li>Develop and optimize a deep generative model based on Normalizing Flows for PET(Positron Emission Tomography) image reconstruction.</li>
+                <li>Formulated PET(Positron Emission Tomography) reconstruction as a Bayesian inference problem, using conditional normalizing flows (<b>RealNVP</b>, <b>Glow</b>) to model the posterior distribution of tracer activity.</li>
+                <li>Implemented a Deep Probabilistic Imaging (DPI) pipeline that outputs both posterior mean reconstructions and uncertainty estimates.</li>
+                <li>Scaled training with multi-GPU parallelization (3.7x speedup) while keeping image quality stable (<1% drop).</li>
               </ul>
             </td>
           </tr>
@@ -108,16 +110,13 @@
                 <span class="date" style="text-align: right;">Jun. 2024 - Nov. 2024</span>
               </div>
               <ul>
-                <li>Developed a <b>Blender</b> plugin in Python and its panel, including core functionalities such as model import
-                  and export, recommendation system, model management, window segmentation, and seamless switching
-                  between Gaussian/Mesh models.</li>
-                <li>Generated Gaussian bulbs model and rendered mesh model on web servers using Transformer-based
-                  algorithms, which enabled text description based generation.</li>
-                <li>Implemented <b>Flask</b> framework for web backend monitoring for user interactions. </li>
+                <li>Built a Blender plugin with Python, supporting model import/export, management, segmentation, and Gaussian ↔ Mesh conversion.</li>
+                <li>Enabled text-to-3D model generation using Transformer-based Gaussian Splatting and mesh rendering pipelines.</li>
+                <li>Deployed a Flask-based backend to track user interactions and support 3D generation services.</li>
               </ul>
             </td>
           </tr>
-
+<!-- 
           <tr>
             <td style="padding: 20px; width: 25%; vertical-align: middle;">
               <img src="images/Vegetation.png" width="120%">
@@ -138,9 +137,9 @@
                 <li>Achieved a significant 93x speed-up compared to a pure-CPU serial approach.</li>
               </ul>
             </td>
-          </tr>
+          </tr> -->
 
-          <tr>
+          <!-- <tr>
             <td style="padding: 20px; width: 25%; vertical-align: middle;">
               <img src="images/srtp.png" width="120%">
             </td>
@@ -156,7 +155,7 @@
                 <li>Developed a RNN-based model with multi-emotion labels, applied on multi-language datasets.</li>
               </ul>
             </td>
-          </tr>
+          </tr> -->
          
         </tbody></table>
 
@@ -237,7 +236,7 @@
             </tr>
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding: 20px; width: 25%; vertical-align: middle;">
                 <img src="images/coach.png" width="120%">
@@ -256,7 +255,7 @@
                   <li>Use Vue.js and Uniapp, create an User Interface to present visual feedback, including indicators for correct posture. </li>
                 </ul>
               </td>
-            </tr>
+            </tr> -->
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -303,7 +302,7 @@
             </tr>
 
 
-            <tr>
+            <!-- <tr>
               <td style="padding: 20px; width: 25%; vertical-align: middle;">
                 <img src="images/webyoutube.png" width="120%">
               </td>
@@ -327,7 +326,7 @@
                   </li>
                 </ul>
               </td>
-            </tr>
+            </tr> -->
 
             <tr>
               <td style="padding: 20px; width: 25%; vertical-align: middle;">
@@ -369,7 +368,7 @@
                 </ul>
               </td>
             </tr> -->
-
+<!-- 
             <tr>
               <td style="padding: 20px; width: 25%; vertical-align: middle;">
                 <img src="images/mazegame.png" width="120%">
@@ -389,7 +388,7 @@
                   <li>Using the pthread API, implemented direction control on the tux controller as well as the keyboard's keys, simultaneously receiving commands from both devices and updating game status affected by RTC.</li>
                 </ul>
               </td>
-            </tr>
+            </tr> -->
 
             <!-- <tr>
               <td style="padding: 20px; width: 25%; vertical-align: middle;">
